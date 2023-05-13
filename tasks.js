@@ -17,4 +17,12 @@ function digitize(n) {
     return res.reverse()
   }
   
-  console.log(digitize(12345))
+  console.log(digitize(12345)) 
+
+// 3 - Kata
+function findNextSquare(sq) {
+    if(Number.isInteger(Math.sqrt(sq))){
+        return (Math.sqrt(sq)+1)**2
+    }
+    return -1;
+  }
