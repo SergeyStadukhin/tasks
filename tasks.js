@@ -26,3 +26,17 @@ function findNextSquare(sq) {
     }
     return -1;
   }
+
+// 4- Kata
+function printerError(s) {
+    const current = ['a','b','c','d','e','f','g','h','i','j','k','l','m']
+    const countSymbols = s.length
+    let countErrors = 0
+    
+    for(let i = 0; i<s.length; i++) {
+      if(current.indexOf(s[i]) === -1) {
+          countErrors=countErrors+1
+      }
+    }
+    return `${countErrors}/${countSymbols}`
+}
