@@ -9,3 +9,12 @@ const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
 }; 
 
 zeroFuel(100, 50, 1)
+
+// 2-Kata
+function digitize(n) {
+    let res = []
+    res = String(n).split('').map((i)=>Number(i))
+    return res.reverse()
+  }
+  
+  console.log(digitize(12345))
