@@ -85,3 +85,20 @@ myList.push(["Chocolate Bar", 15])
 myList.push(["Chocolate Bar", 15])
 myList.push(["Chocolate Bar", 15])
 
+
+function reusableFunction() {
+  console.log("Hi World");
+}
+reusableFunction()
+
+function functionWithArgs(param1, param2) {
+  console.log(param1, param2);
+}
+
+functionWithArgs("123","123")
+
+function timesFive(num) {
+  return num * 5;
+}
+
+const answer = timesFive(5);
