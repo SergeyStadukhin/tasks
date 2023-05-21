@@ -61,3 +61,27 @@ function SeriesSum(n)
   return sum
 }
 // console.log(SeriesSum(4));
+
+// freeCodeCamp
+// Setup
+const myArray = [["John", 23], ["dog", 3]];
+
+// Only change code below this line
+const removedFromMyArray = myArray.shift()
+
+//
+// Setup
+const myArray = [["John", 23], ["dog", 3]];
+myArray.shift();
+
+// Only change code below this line
+myArray.unshift(["Paul", 35])
+
+const myList = [];
+
+myList.push(["Chocolate Bar", 15])
+myList.push(["Chocolate Bar", 15])
+myList.push(["Chocolate Bar", 15])
+myList.push(["Chocolate Bar", 15])
+myList.push(["Chocolate Bar", 15])
+
