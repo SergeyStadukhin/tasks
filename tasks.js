@@ -560,6 +560,8 @@ const myDog = {
 // Only change code below this line
 delete myDog.tails
 
-
-
+function test(...args) {
+  console.log(args)
+}
+test([1,2,3])
 
